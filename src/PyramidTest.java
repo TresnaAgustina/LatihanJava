@@ -1,9 +1,21 @@
 public class PyramidTest {
     public static void main(String[] args) {
-        char a = '*';
+        int rows = 5;
 
-        for (int i = 1; i <=10; i++){
-            System.out.print(a);
+//        Normal half pyramid patterm
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= i; ++j) {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
+
+//        vertical reverse half pyramid pattern
+//        for (int i = 5; i >= rows; i--) {
+//            for (int j = 1; j <= i; ++j) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
     }
 }
