@@ -11,18 +11,21 @@ public class ToDoListTest {
         System.out.print("Tambahkan Kegiatan?[y/n]: ");
         menu = todolist.readLine();
 
-//        switch (menu){
-//            case y:
-//                System.out.println();
-//                break;
-//
-//            case n:
-//                System.out.println();
-//                break;
-//
-//            default:
-//                System.out.println();
-//                break;
-//        }
+        switch (menu){
+            case "y":
+//                insertList();
+                break;
+
+            case "n":
+                System.out.println();
+                break;
+
+            default:
+                System.out.println();
+                break;
+        }
     }
+
+//    static void insertList()
 }
+

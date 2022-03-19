@@ -1,4 +1,4 @@
-//impor scanner ke dalam proram
+//import scanner ke dalam program
 import java.util.Random;
 import java.util.Scanner;
 import java.util.Date;
